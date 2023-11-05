@@ -80,7 +80,7 @@ def test_agent(agent):
             state = state - 1
         elif action == 3:
             state = state + 1
-        print(f"New State: {state}")
+        # print(f"New State: {state}")
     print("Agent reached the goal!")
 
 test_agent(agent)
